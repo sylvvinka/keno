@@ -280,7 +280,7 @@ function Gallery() {
               key={index}
               className="gallery-item"
               src={image}
-              alt={`Image ${index}`}
+              // alt={`Image ${index}`}
               onClick={() => openModal(image)}
               loading="lazy"
             />
