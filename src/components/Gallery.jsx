@@ -281,6 +281,7 @@ function Gallery() {
               className="gallery-item"
               src={image}
               // alt={`Image ${index}`}
+              alt=""
               onClick={() => openModal(image)}
               loading="lazy"
             />
